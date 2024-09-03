@@ -47,3 +47,18 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# renv directories
+renv/library
+renv/local
+renv/lock
+renv/python
+renv/staging
+
+# Add these lines to your existing .gitignore
+nasdaq-daily-stock-prices.zip
+data/causal_impact/nasdaq_daily_stock_prices.csv
+
+# data files
+.zip
+.csv
